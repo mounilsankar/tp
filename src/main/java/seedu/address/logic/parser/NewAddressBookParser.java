@@ -75,7 +75,7 @@ public class NewAddressBookParser {
             return new EditDoctorCommandParser().parse(arguments);
 
         case EditAppointmentCommand.COMMAND_WORD:
-            return new EditDoctorCommandParser().parse(arguments);
+            return new EditAppointmentCommandParser().parse(arguments);
 
         case DeleteDoctorCommand.COMMAND_WORD:
             return new DeleteDoctorCommandParser().parse(arguments);
