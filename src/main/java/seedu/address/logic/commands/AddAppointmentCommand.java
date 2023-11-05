@@ -28,7 +28,7 @@ public class AddAppointmentCommand extends Command {
             + PREFIX_DOCTOR_NRIC + "DOCTOR_NRIC \n"
             + PREFIX_APPOINTMENT_START_TIME + "START_TIME "
             + PREFIX_APPOINTMENT_END_TIME + "END_TIME \n"
-            + "Example: "
+            + "Example: " + COMMAND_WORD + " "
             + PREFIX_PATIENT_NRIC + "S9912343G "
             + PREFIX_DOCTOR_NRIC + "T0212385J "
             + PREFIX_APPOINTMENT_START_TIME + "2023-09-11 07:30 "
